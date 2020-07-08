@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "136917251474",
+    "firebase_url": "https://get-moving-c11aa.firebaseio.com",
+    "project_id": "get-moving-c11aa",
+    "storage_bucket": "get-moving-c11aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136917251474:android:f6b041e71d7622a5b6fd4b",
+        "android_client_info": {
+          "package_name": "com.example.getmoving"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136917251474-cojljubobh7mjc98dnjv00umsp95i6v3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.getmoving",
+            "certificate_hash": "9db0ee6ea3297abfaec1541a1fb1c28afca0f106"
+          }
+        },
+        {
+          "client_id": "136917251474-ir61d2dc2bn977qvr8aavm61ssmhrha1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.getmoving",
+            "certificate_hash": "c2cdf5a228f08fc93ed9eeab4680b0b6422351d3"
+          }
+        },
+        {
+          "client_id": "136917251474-25mq1ertj1uqadvb0uu264enq1c8q5oc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCprny5taZhrIqb9sWXZJWuJ3eWFzYwh0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136917251474-25mq1ertj1uqadvb0uu264enq1c8q5oc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136917251474:android:f758eaadc6ba3bf7b6fd4b",
+        "android_client_info": {
+          "package_name": "com.fitness.getmoving"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136917251474-vgdk4d2g6b84m4ka9n5h20nbo8mjjf9a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fitness.getmoving",
+            "certificate_hash": "9db0ee6ea3297abfaec1541a1fb1c28afca0f106"
+          }
+        },
+        {
+          "client_id": "136917251474-25mq1ertj1uqadvb0uu264enq1c8q5oc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCprny5taZhrIqb9sWXZJWuJ3eWFzYwh0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136917251474-25mq1ertj1uqadvb0uu264enq1c8q5oc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

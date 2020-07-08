@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for the list of exercises -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Empty view for the list -->
+    <RelativeLayout
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/lazy_person"
+            style="@style/imageEmptyMainPage"
+            android:src="@drawable/sleeping"
+            android:textAlignment="center" />
+        <!-- Icon by PNGRepo -->
+        <!-- https://www.pngrepo.com/svg/26592/sleeping -->
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/button_take_photo"
+            style="@style/fabMainPage"
+            android:layout_marginBottom="@dimen/marginBottomFabTakePhoto"
+            android:onClick="takePhoto"
+            android:src="@drawable/camera_colors" />
+        <!-- Icon by Freepik -->
+        <!-- https://www.flaticon.com/free-icon/camera_3094029?term=camera&page=1&position=25 -->
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/button_create_exercise"
+            style="@style/fabMainPage"
+            android:layout_marginBottom="@dimen/marginBottomFabCreateExercise"
+            android:src="@drawable/muscle_colors" />
+        <!-- Icon by Iconixar -->
+        <!-- https://www.flaticon.com/free-icon/training_2843591?term=muscle&page=1&position=63 -->
+
+    </RelativeLayout>
+
+</RelativeLayout>

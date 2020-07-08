@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Name for the application [CHAR LIMIT=12] -->
+    <string name="app_name">Get Moving</string>
+
+    <!-- Label for overflow menu option that inserts fake exercise data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all exercise data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Exercises</string>
+
+    <!-- Title for the activity to add a new exercise [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_exercise">Add an Exercise</string>
+
+    <!-- Title for the activity to edit an existing exercise [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_exercise">Edit Exercise</string>
+
+    <!-- Label for editor menu option to save exercise and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current exercise [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Toast message in editor when new exercise has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_exercise_successful">Exercise saved</string>
+
+    <!-- Toast message in editor when new exercise has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_exercise_failed">Error with saving exercise</string>
+
+    <!-- Toast message in editor when current exercise was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_exercise_successful">Exercise updated</string>
+
+    <!-- Toast message in editor when current exercise has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_exercise_failed">Error with updating exercise</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current exercise [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current exercise was successfully deleted [CHAR LIMIT=20] -->
+    <string name="editor_delete_exercise_successful">Exercise deleted</string>
+
+    <!-- Toast message in editor when current exercise has failed to be deleted [CHAR LIMIT=30] -->
+    <string name="editor_delete_exercise_failed">Error with deleting exercise</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current exercise [CHAR LIMIT=20] -->
+    <string name="delete_dialog_msg">Delete this exercise?</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the entire list [CHAR LIMIT=20] -->
+    <string name="delete_all_list">Delete everything?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current exercise [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current exercise [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Label for day information in the editor [CHAR LIMIT=30] -->
+    <!-- Text hint for day field in the editor [CHAR LIMIT=30] -->
+    <string name="category_day_of_week">Day</string>
+
+    <!-- Label for exercise information in the editor [CHAR LIMIT=30] -->
+    <string name="category_exercise">Exercise</string>
+
+    <!-- Label for place information in the editor [CHAR LIMIT=30] -->
+    <string name="category_place">Place</string>
+
+    <!-- Label for measurement information in the editor [CHAR LIMIT=30] -->
+    <string name="category_measurement">Total Reps/Km</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=10] -->
+    <string name="hint_exercise_name">Exercise</string>
+
+    <!-- Text hint for reps field in the editor [CHAR LIMIT=10] -->
+    <string name="hint_exercise_reps">Reps</string>
+
+    <!-- Label for dropdown menu option if the place is the gym [CHAR LIMIT=10] -->
+    <string name="place_gym">Gym</string>
+
+    <!-- Label for dropdown menu option if the place is home [CHAR LIMIT=10] -->
+    <string name="place_home">Home</string>
+
+    <!-- Label for dropdown menu option if the place is the park [CHAR LIMIT=10] -->
+    <string name="place_park">Park</string>
+
+    <!-- Value for the name of the exercise if the exercise is unknown [CHAR LIMIT=20] -->
+    <string name="unknown_exercise">Unknown exercise</string>
+
+    <!-- Toast message in case permission to start camera is denied [CHAR LIMIT=25] -->
+    <string name="cannotStartCamera">Camera needs permission</string>
+
+    <!-- Toast message: funny and motivational statements [CHAR LIMIT=25] -->
+    <string name="legDay">Every Day is LEG Day</string>
+
+    <!-- Toast message: funny and motivational statements [CHAR LIMIT=25] -->
+    <string name="doCardio">Do some CARDIO\nIt\'s important</string>
+
+    <!-- Toast message: funny and motivational statements [CHAR LIMIT=25] -->
+    <string name="stretching">Stretch or Break</string>
+
+    <!-- Toast message: funny and motivational statements [CHAR LIMIT=25] -->
+    <string name="focus">Focus\nDon\'t look around</string>
+
+    <!-- Toast message: funny and motivational statements [CHAR LIMIT=25] -->
+    <string name="pizza">That pizza was tasty\nNow burn it</string>
+
+    <!-- Label for Sign Out [CHAR LIMIT=10] -->
+    <string name="sign_out">Sign Out</string>
+
+    <!-- Label for Sign In [CHAR LIMIT=10] -->
+    <string name="sign_in">Welcome\nPress button below\nand\nstart working out</string>
+
+    <!-- Label for message after signing out [CHAR LIMIT=10] -->
+    <string name="signed_out">Signed Out</string>
+
+    <!-- Label for button to get motivational Toast messages [CHAR LIMIT=10] -->
+    <string name="wisdom_of_the_day">Wisdom of the day</string>
+
+    <!-- String to sort in descending order the items in the Main activity page [CHAR LIMIT=NONE] -->
+    <string name="sqlSortingDescending">CAST(SUBSTR(DAY, 7, 4) AS INT) DESC, CAST(SUBSTR(DAY, 4, 2) AS INT) DESC, CAST(SUBSTR(DAY, 1, 2) AS INT) DESC</string>
+
+    <!-- Value for the date of the exercise if the date is unknown [CHAR LIMIT=10] -->
+    <string name="unknown_date">01/01/1970</string>
+
+</resources>

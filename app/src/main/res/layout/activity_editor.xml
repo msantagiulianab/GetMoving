@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for the editor -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padListItem"
+    tools:context=".EditorActivity">
+
+    <!-- Date category -->
+    <LinearLayout style="@style/linearLayoutEditor">
+
+        <!-- Label -->
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/category_day_of_week" />
+
+        <!-- Input date field -->
+        <EditText
+            android:id="@+id/edit_exercise_day"
+            style="@style/EditorFieldStyle"
+            android:ems="10"
+            android:hint="@string/category_day_of_week" />
+
+    </LinearLayout>
+
+    <!-- Exercise category -->
+    <LinearLayout style="@style/linearLayoutEditor">
+
+        <!-- Label -->
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/category_exercise" />
+
+        <!-- Input Exercise field -->
+        <EditText
+            android:id="@+id/edit_exercise_name"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/hint_exercise_name"
+            android:inputType="textCapWords" />
+
+    </LinearLayout>
+
+    <!-- Measurement category -->
+    <LinearLayout style="@style/linearLayoutEditor">
+
+        <!-- Label -->
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/category_measurement" />
+
+        <!-- Input Reps/Km field -->
+        <EditText
+            android:id="@+id/edit_exercise_reps"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/hint_exercise_reps"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <!-- Place category -->
+    <LinearLayout style="@style/linearLayoutEditor">
+
+        <!-- Label -->
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/category_place" />
+
+        <!-- Place drop-down spinner -->
+        <Spinner
+            android:id="@+id/spinner_place"
+            style="@style/EditorFieldStyle"
+            android:spinnerMode="dropdown" />
+
+    </LinearLayout>
+
+    <!-- Random Toast message -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Button to display a random Toast message -->
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="@dimen/padToastButton"
+            android:text="@string/wisdom_of_the_day" />
+
+    </RelativeLayout>
+
+</LinearLayout>

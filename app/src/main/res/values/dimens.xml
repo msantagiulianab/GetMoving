@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="padListItem">16dp</dimen>
+
+    <dimen name="marginBottomFabTakePhoto">16dp</dimen>
+
+    <dimen name="marginBottomFabCreateExercise">96dp</dimen>
+
+    <dimen name="fabMarginEnd">16dp</dimen>
+
+    <dimen name="imageEmptyListMarginStart">24dp</dimen>
+
+    <dimen name="imageEmptyListMarginEnd">24dp</dimen>
+
+    <dimen name="padTopEachCategoryInEditor">16dp</dimen>
+
+    <dimen name="textSizeSignInTextView">24sp</dimen>
+
+    <dimen name="marginTopSignInTextView">40dp</dimen>
+
+    <dimen name="padToastButton">24dp</dimen>
+</resources>

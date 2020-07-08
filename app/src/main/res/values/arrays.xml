@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- These are the options displayed in the drop-down Spinner for the place -->
+    <string-array name="array_place_options">
+        <item>@string/place_home</item>
+        <item>@string/place_gym</item>
+        <item>@string/place_park</item>
+    </string-array>
+</resources>
