@@ -55,4 +55,4 @@ If you want to contact me you can reach me at <michelesantagiuliana@hotmail.it>.
 
 ## License
 
-This project uses the following license: [<MIT license>](<link>).
+This project uses the following license: MIT license.
