@@ -17,13 +17,19 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installing Get Moving
 
-To install it on your device, follow these steps:
-1. Search for Get Moving on Google Play
-2. Press install
-
 To check the code, follow these steps:
 1. Clone the repository
 2. Open it in Android Studio
+3. Change SHA-1 so you can run it and sign-in from your mobile device:
+  a. File -> Project Structure -> Modules -> Signing Configs tab
+  b. click debug (or + anclose, if debug is not visible)
+  c. Store File: my-key.keystore
+  d. Store Password: 123456
+  e. Key Alias: alias_name
+  f. Key Password: 123456
+4. Run the app on your device
+
+PENDING publication on Google Play, but you can already install it on your device and try it, just follow the instructions above.
 
 ## Using Get Moving
 
