@@ -22,7 +22,7 @@ To check the code, follow these steps:
 2. Open it in Android Studio
 3. Change SHA-1 so you can run it and sign-in from your mobile device:
   a. File -> Project Structure -> Modules -> Signing Configs tab
-  b. click debug (or + anclose, if debug is not visible)
+  b. click debug (or press + button and then close, if debug is not visible)
   c. Store File: my-key.keystore
   d. Store Password: 123456
   e. Key Alias: alias_name
