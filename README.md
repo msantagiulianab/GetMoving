@@ -17,6 +17,9 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installing Get Moving
 
+To simply install it on your device, follow the link below:
+https://play.google.com/store/apps/details?id=com.fitness.getmoving
+
 To check the code, follow these steps:
 1. Clone the repository
 2. Open it in Android Studio
@@ -28,8 +31,6 @@ To check the code, follow these steps:
   e. Key Alias: alias_name
   f. Key Password: 123456
 4. Run the app on your device
-
-PENDING publication on Google Play, but you can already install it on your device and try it, just follow the instructions above.
 
 ## Using Get Moving
 
