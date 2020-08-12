@@ -6,6 +6,15 @@ Each exercise will have a date, a name, a number of repetitions (or km), and a l
 This data is safely stored locally on your device.
 At any time you can quickly open the camera from within Get Moving app and take a selfie!
 
+<p float="left">
+<img src="https://user-images.githubusercontent.com/21276996/90056944-9723b300-dcd7-11ea-85fb-3a5ae2a3c726.jpg" width="300" />
+<img src="https://user-images.githubusercontent.com/21276996/90058370-925ffe80-dcd9-11ea-9684-284dcd6f8290.jpg" width="300" />
+<img src="https://user-images.githubusercontent.com/21276996/90057658-9ccdc880-dcd8-11ea-886a-efb43f92e88e.jpg" width="300" />
+</p>
+
+
+
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
